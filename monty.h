@@ -50,7 +50,7 @@ FILE *file;
 void (*operator_function)(stack_t **, unsigned int);
 void (*go(char *op_f, unsigned int l, stack_t **s))(stack_t**, unsigned int);
 
-void get_push(stack_t **stack, unsigned int line_number char *temp);
+void get_push(stack_t **stack, unsigned int line_number, char *temp);
 void get_pall(stack_t **stack, unsigned int line_number);
 void get_pint(stack_t **stack, unsigned int line_number);
 void get_pop(stack_t **stack, unsigned int line_number);
